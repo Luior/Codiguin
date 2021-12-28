@@ -86,7 +86,8 @@ nav {   border-right: 2px solid black;
                 align-items: stretch;
                 border: 3px inset black;
                 border-radius: 25px;
-                margin-bottom: 30vh;}
+                margin-bottom: 30vh;
+                height: 50vh;
                 .item_hot {     text-align: center;
                                 padding-top: 10vh;}
                 
