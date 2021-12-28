@@ -93,7 +93,7 @@ nav {   border-right: 2px solid black;
                 #item1_hot {    grid-area: i1 / i1 / i1 / i1;
                                 border-left: 1px solid black;
                                 border-right: 1px solid black;
-                                background-image: url(/img/Capa.png);
+                                background-image: url(/Codiguin/img/Capa.png);
                                 background-position: center;
                                 background-size: 100%;
                                 transition: background-size 0.3s;
@@ -108,7 +108,7 @@ nav {   border-right: 2px solid black;
                         
                 #item2_hot {    grid-area: i2 / i2 / i2 / i2;
                                 border-bottom: 1px solid black;
-                                background-image: url(/img/Sugest/bleach.jpg);
+                                background-image: url(/Codiguin/img/Sugest/bleach.jpg);
                                 background-position: center;
                                 background-size: 110%;
                                 transition: background-size 0.3s;
@@ -120,7 +120,7 @@ nav {   border-right: 2px solid black;
                                 #item2_hot:hover {      background-size: 120%;}
 
                 #item3_hot {    grid-area: i3 / i3 / i3 / i3;
-                                background-image: url(/img/One-Piece-live-action.jpg);
+                                background-image: url(/Codiguin/img/One-Piece-live-action.jpg);
                                 background-position: center;
                                 background-size: 101%;
                                 transition: background-size 0.3s;
@@ -130,7 +130,7 @@ nav {   border-right: 2px solid black;
                 
                 #item4_hot {    grid-area: i4 / i4 / i4 / i4;
                                 border-bottom: 1px solid black;
-                                background-image: url(/img/final-SL.jpg);
+                                background-image: url(/Codiguin/img/final-SL.jpg);
                                 background-position: center;
                                 background-size: 100%;
                                 transition: background-size 0.3s;
@@ -139,7 +139,7 @@ nav {   border-right: 2px solid black;
                                 #item4_hot:hover {      background-size: 110%;}
 
                 #item5_hot {    grid-area: i5 / i5 / i5 / i5;
-                                background-image: url(/img/kimestso-2temp.jpeg);
+                                background-image: url(/Codiguin/img/kimestso-2temp.jpeg);
                                 background-position: center;
                                 background-size: 100%;
                                 transition: background-size 0.3s;
