@@ -1,0 +1,124 @@
+.sugestões {    display: grid;
+                justify-content: center;
+                justify-items: center;
+                grid-template-columns: 50% 50%;
+                grid-gap: 5vh;
+                margin: 10vh;}
+                .titulo {   grid-column: 1/3;}
+                .item_outros {  letter-spacing: 1px;}
+                .item_sugest h2 {   display: inline;
+                                    padding: 1vh;
+                                    border-radius: 12px;}
+                                                    
+
+.img {  height: 30vh;
+        margin-top: 1.5vh;
+        width: 50vh;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 1vh;
+        border-radius: 12px;
+        transition: 0.5s}
+        .img:hover {   background-size: 110%;}
+
+#OP {   background-image: url(/img/Sugest/one\ piece.jpg);}
+
+#CM {   background-image: url(/img/Sugest/chainsaw.jpg);}
+
+#SL {   background-image: url(/img/Sugest/solo\ leveling.jpg);}
+
+#SKR {  background-image: url(/img/Sugest/sun-ken-rock.jpg);
+        background-size: 126.5%;}
+        #SKR:hover {    background-size: 136.5%;}
+
+#V {    background-image: url(/img/Sugest/vagabond.jpg);
+        background-size: 110%;}
+        #V:hover {    background-size: 120%;}
+
+#M {    background-image: url(/img/Sugest/mieruko.jpg);}
+
+#P {    background-image: url(/img/Sugest/pancreas.jpg);}
+
+#I {    background-image: url(/img/Sugest/insonia.jpg);}
+
+#KLW {   background-image: url(/img/Sugest/love\ is\ war.jpg);}
+
+#S {    background-image: url(/img/Sugest/sold\ my\ soul.jpg);}
+
+#TK {   background-image: url(/img/Sugest/tokyo\ ghoul.jpg);}
+
+#JJ {   background-image: url(/img/Sugest/jujutso.jpeg);}
+
+#DN {   background-image: url(/img/Sugest/death\ note.png);}
+        #DNNC { background-image: url(/img/Sugest/death_note_NC.jpg);}
+        #DNC {  background-image: url(/img/Sugest/death_note_C.jpg);}
+
+#BK {   background-image: url(/img/Sugest/berserk.jpg);}
+
+#BH {   background-image: url(/img/Sugest/baki.jpg);}
+
+#RF {   background-image: url(/img/Sugest/rooster\ fighter.jpg);}
+
+#NN {   background-image: url(/img/Sugest/new\ normal.jpg);}
+
+#KS {   background-image: url(/img/Sugest/komi-san.png);}
+
+#KY {   background-image: url(/img/Sugest/kimetso.jpg);}
+
+#BATE {   background-image: url(/img/Sugest/BATE.jpg);}
+
+#OPM {   background-image: url(/img/Sugest/one\ punch.jpg);}
+
+#NT {   background-image: url(/img/Sugest/1101932.jpeg);}
+
+#TR {   background-image: url(/img/Sugest/tokyo\ revenge.jpg);}
+
+#SK {   background-image: url(/img/Sugest/shigeki.jpg);}
+
+#BT {   background-image: url(/img/Sugest/boruto.jpg);}
+
+#BL {   background-image: url(/img/Sugest/bleach.jpg);}
+
+
+
+.item_sugest {  color: #333;
+                background-color: rgb(51, 51, 51, 0.4);
+                border-radius: 12px;
+                padding: 1vh;}
+
+.conteiner {    display: grid;
+                margin: 10vh 20vh;
+                grid-template-columns: 100%;
+                justify-items: stretch;}
+                .imgsolo {      height: 80vh;
+                                margin-top: 1.5vh;
+                                width: auto;
+                                background-position: center;
+                                background-size: 100%;
+                                background-repeat: no-repeat;
+                                padding: 1vh;           
+                                border-radius: 12px;}
+                .imgsolo_verti {        height: 100vh;
+                                        margin-top: 1.5vh;
+                                        background-position: center;
+                                        background-size: 50%;
+                                        background-repeat: no-repeat;
+                                        padding: 1vh;           
+                                        border-radius: 12px;}
+                .descrição {    font-family: Arial, Helvetica, sans-serif;
+                                text-align: justify;
+                                color: #333}
+
+
+
+
+
+#scans {display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 10vh 20vh;
+        justify-items: center;
+        grid-gap: 10vh;}
+        #h2_scans {     grid-column: 1/3;
+                        }
+        #item1_scans{   grid-column: 1/2;}

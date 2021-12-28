@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaPeer</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../style_sugest.css">
+    <script src="https://kit.fontawesome.com/5aa4431312.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div onclick="Abrir()" class="icon">
+            <img src="../../img/icon.png" width="110vh" height="auto">
+            <div id="icon_menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div> 
+        <h1 class="h1_header" id="Manga_header">Manga</h1><h1 class="h1_header" id="Peer_header">Peer</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="/pages/index.html"><img src="../../img/logo.png" width="180vh" height="auto"></a></li>
+                <li class="item" id="nav-top"><a href="/pages/index.html">Inicio</a></li>
+                <a href="/pages/Cadastro_Login.html"><div>
+                    <li class="item">Login</li>
+                    <li>Ou</li>
+                    <li class="item">Cadastro</li>
+                </div></a>
+                <li><i class="fas fa-arrow-left" id="fechar" onclick="Fechar()"></i></li>
+                <li class="item" id="nav-bot"><a href="/pages/Vim_pelo_anime.html">Vim pelo Anime</a></li>
+                <li class="item"><a href="/pages/Susgestões.html">Sugestões</a></li>
+                <li class="item"><a href="/pages/Sugestão_scan.html">Scans</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="login_cadas">
+            <div class="titulo"><h2>Cadastre-se no site para receber novidades de mangás por emial</h2></div>
+            <div id="login" class="caixa"><h2>Login</h2>
+                <h3>
+                    <form action="">
+                        <label for="email">Email: </label><br><input type="email" name="email" placeholder="Digite seu email"><p>
+                        <label for="senha">Senha: </label><br><input type="password" name="senha" placeholder="Digite sua senha"><p>
+                        <button>Logar</button>
+                    </form>
+                </h3>
+            </div>
+            <div id="cadastro" class="caixa"><h2>Cadastro</h2>
+                <h3>
+                    <form action="">
+                        <label for="email">Email: </label><br><input type="email" name="email" placeholder="Digite seu email"><p>
+                        <label for="type">Tipo mangá: <br><select name="type" id="tipos">
+                                                        <option value="Todos">Todos</option>
+                                                        <option value="Ação">Ação</option>
+                                                        <option value="Aventura">Aventura</option>
+                                                        <option value="Comédia">Comédia</option>
+                                                        <option value="Romance">Romance</option>
+                                                        <option value="Hitorico">Hitorico</option>
+                                                        <option value="Drama">Drama</option>
+                                                        <option value="Fantasia">Fantasia</option>
+                                                        <option value="Horror">Horror</option>
+                                                        <option value="Reencarnação">Reencarnação</option>
+                                                        <option value="Artes Marciais">Artes</option>
+                                                        <option value="Vida de escola">Vida</option>
+                                                        <option value="Sci fi">Sci fi</option>
+                                                        <option value="Misterio">Misterio</option>
+                                                        <option value="Tragédia">Tragédia</option>
+                                                        </select><p>
+                        <label for="notificação">Quer receber notificação por email? </label><br><label for="notificação">Sim </label><input type="radio" name="notificação" value="sim"><br><label for="notificação">Não </label><input type="radio" name="notificação" value="não"><p>
+                        <label for="senha">Senha: </label><br><input type="password" name="senha" placeholder="Digite sua senha"><p>
+                        <label for="confirm_senha">Confirmar Senha: </label><br><input type="password" name="confirm_senha" placeholder="Confirme sua senha"><p>
+                        <button>Cadastrar</button>
+                    </form>
+                </h3>
+            </div>
+        </div>
+    </main>
+        <!--=====================================================================================================================================-->
+                                                        <!--COMEÇO DO FOOTER-->
+    <footer>
+        <div class="contato">
+            <div class="footer" id="item1_footer">
+                <ul>
+                    <li><i class="fas fa-at"></i><span> esljprogam@gmail.com</span></li>
+                    <li><i class="fab fa-discord"></i><span> Luior#8888</span></li>
+                    <li><i class="fas fa-phone-alt"></i><span> (83) 9 0000-0000</span></li>
+                </ul>
+            </div>
+            <div class="footer" id="item2_footer">
+                <a href="https://estudante.ifpb.edu.br">
+                    <img src="/img/logo IFPB.png" width="160vh" height="auto">
+                </a>
+            </div>
+            <div class="footer" id="item3_footer">
+                <ul>
+                    <li><i class="fab fa-instagram"></i><span> @erevanpaiboy</span></li>
+                    <li><i class="fab fa-twitter"></i><span> @Gaules</span></li>
+                    <li><a href="https://www.linkedin.com/in/erivan-júnior-405284224/"><i class="fab fa-linkedin-in"></i><span> Erivan Júnior </span><span class="obs">(link do perfil)</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="direitos"> <h4>Esta página foi criada com o propósito de obter nota para a cadeira de LM do curso de SI da IFPB - João Pessoa Paraíba - 2021</h4></div>
+    </footer>
+                                                        <!--FIM DO FOOTER-->
+    <!--=====================================================================================================================================-->
+    <script type="text/javascript" src="/pages/Aplicações.js"></script>
+</body>
+</html>
